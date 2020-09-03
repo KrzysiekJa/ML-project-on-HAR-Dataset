@@ -5,7 +5,7 @@
 Project was made using as the base for its dataset prepared by Jorge L. Reyes-Ortiz, that contained samples from smartphones' gyroscopes and accelerometers, and also labels corresponding to the one of users states: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. Link to the dataset: [UCI HAR Dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 
 ## Project purpose
-My purpose was to use the data and find good model to make decisions based on them. That's why I was testing the SVM model- to find how good was an idea of dataset creator to use this- and Linear Regression. Finding which one would fit better and work better.
+My purpose was to use the data and find the best model to make decisions based on them. That's why I was testing the SVM model- to find how good was an idea of dataset creator to use this- and Linear Regression. Finding which one would fit better and work better- giving result in determining the physical condition of the device user based on input' steam data.
 
 Author's article: [article](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2013-84.pdf)
 
@@ -27,7 +27,7 @@ all from [sklearn](https://sklearn.org) library. I also used `Numpy` and `Matplo
 1. Firstly I loaded the sets. This one with data to model I decomposed with use of PCA.
 2. Then I plotted the decomposed to 24 dimensions data and their labels.
 ![alt text](https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/blob/master/plot.png "Plot")
-3. Then I trained the SVC model on data in few configurations.
+3. Then I trained the SVC model on data in few configurations with use of cross validation.
 4. And on the same data I trained Linear Regression one.
 5. Finally, I made a classification repost for best two models.
 ![alt text](https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/blob/master/results_table.png "Table")
