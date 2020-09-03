@@ -1,6 +1,7 @@
 # Analyze of Human Activity Recognition Dataset
 ###### Author: Krzysztof Jarek
 
+
 Project was made using as the base for its dataset prepared by Jorge L. Reyes-Ortiz, that contained samples from smartphones' gyroscopes and accelerometers, and also labels corresponding to the one of users states: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. Link to the dataset: [UCI HAR Dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 
 ## Project purpose
