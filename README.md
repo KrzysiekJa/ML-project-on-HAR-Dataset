@@ -30,9 +30,9 @@ all from [sklearn](https://sklearn.org) library. I also used `Numpy` and `Matplo
 3. Then I trained the SVC model on data in few configurations with use of cross validation.
 4. And on the same data I trained Linear Regression one.
 5. Finally, I made a classification repost for best two models.
-<p align="center"><img src="https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/blob/master/results_table.png" width="700" height="700" /></p>
+<p align="center"><img src="https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/blob/master/results_table.png" width="650" height="650" /></p>
 
-<p align="center"><img src="https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/blob/master/roc_curve.png" width="700" height="700" /></p>
+<p align="center"><img src="https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/blob/master/roc_curve.png" width="650" height="650" /></p>
 
 ## Conclusion
 
