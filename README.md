@@ -9,6 +9,10 @@ My purpose was to use the data and find the best model to make decisions based o
 
 Author's article: [article](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2013-84.pdf)
 
+## Dataset
+
+Information about dataset is in [UCI HAR Dataset](https://github.com/KrzysiekJa/ML-project-on-HAR-Dataset/tree/master/UCI%20HAR%20Dataset) folder.
+
 ## Used tools
 ```
 - SVC
@@ -40,6 +44,6 @@ Better mean results, using grid searcher, showed SVC model, but was computing mu
 
 ## Misses
 
-Firstly, I was trying to use as the learning set decomposed set with raw data from instruments, but without well-made signal preprocessing, it was giving low result (best: 0.67 for SVM), so I used special set already prepared by researchers.
+Firstly, I was trying to use as the learning set decomposed set with raw data from instruments, but without well-made signal preprocessing, it was giving low result (best: 0.67 accuracy for SVM), so I used special set already prepared by researchers.
 Also, I was trying to use the Hidden Markov' Chains model with use of [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/#) library. But after long fight I reconciled that tools aren't made for my case in which I wanted to use labels set.
 
